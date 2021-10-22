@@ -166,7 +166,7 @@ button{
 #home{
     width: 100%;
     height: 100vh;
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 .home .container{
@@ -229,7 +229,7 @@ button{
 .home img{
     width: 90%;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 70px;
     height: 200px;
 }
 

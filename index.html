@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- (Load Unicons)-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- (Load Main CSS)-->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+     <!-- (Navbar) -->
+    <navbar class="navbar" id="navbar">
+        <div class="container">
+            <div class="brand">
+                <img src="assets/img/ngfell-dev-logo.png" alt="nicolas gfell">
+            </div>
+            <ul class="menu" id="menu">
+                <li>
+                    <div class="buttons" id="btn-close-menu">
+                        <i class="uil uil-times"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="#home">
+                        <span>Inicio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about-me">
+                        <span>Sobre mi</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#portfolio">
+                        <span>Portafolio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Habilidades</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Contacto</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="buttons" id="btn-open-menu">
+               <i class="uil uil-analytics"></i>
+            </div>
+        </div>
+    </navbar>
+
+     <!-- (Home) -->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="content-text">
+                <p>¿Necesitas encontrar un desarrollador web?</p>
+                <h1>¡Bienvenido!</h1>
+                <p>Mi nombre es Nicolas Gfell, apasionado por la tecnologia y el desarrollo web.
+                    Te invito a revisar los proyectos en los que he estado trabajando.
+                </p>
+                <button class="flex" id="scroll-button">
+                    <span>Presiona aca</span>
+                    <i class="far fa-arrow-alt-circle-down"></i>
+                </button>
+            </div>
+
+            <div class="content-image">
+                <img src="assets/img/home-wallpaper.png" alt="">
+            </div>
+
+            <div class="svg-hero" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #000000;"></path>
+            </svg></div>
+        </div>
+    </section>
+
+     <!-- (About me) -->
+    <section class="about-me" id="about-me">
+        <div class="container">
+            <h1 class="title-section">Sobre mi</h1>
+            <hr class="line-section">
+
+            <div class="flex">
+                <div class="flex-text">
+                    <p>Soy un desarrollador web que ofrece sus servicios para colaborar en la construccion de productos
+                        que tengan un significado y sean utiles para los clientes. Actualmente, he tenido practicas en
+                        tecnologias del ambiente de javascript tanto del cliente como del servidor y poseeo experiencia
+                        tanto en el area de desarrollo web como de integraciones, si te interesa saber mas, te invito a
+                        revisar mi portafolio de proyectos
+                    </p>
+                </div>
+                <div class="flex-image">
+                    <img src="assets/img/about-me-wallpaper.png" alt="about-me-image">
+                </div>
+            </div>
+        </div>
+        <div class="svg-hero" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #ffffff;"></path>
+        </svg></div>
+    </section>
+
+     <!-- (Portfolio) -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="title-section">Portafolio</h1>
+            <hr class="line-section">
+
+            <div class="grid">
+                <div class="card">
+                    <div class="card-detail">
+                        <h1>Administracion de usuarios</h1>
+                        <hr>
+    
+                        <img src="assets/img/layout_1.png" alt="">
+    
+                        <p>
+                            Construccion de un proyecto de administracion de usuarios, en el cual se utilizo typeorm para
+                            la construccion de la API REST en NodeJS con conexion a la base de datos MySQL y por el lado
+                            del cliente se utilizo angular para consumir los servicios de esta API y mostrar los datos
+                            visualmente al usuario.
+                        </p>
+    
+                        <a href="github.com" class="button-publication">
+                            Ver proyecto
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-detail">
+                        <h1>Tienda Virtual</h1>
+                        <hr>
+    
+                        <img src="assets/img/layout_2.png" alt="">
+    
+                        <p>
+                            Construccion de una tienda virtual, en la cual se realizo la construccion de una API REST en
+                            NodeJS con conexion a la bases de datos no relacional Mongoose y por el lado del cliente se
+                            utilizo angular para consumir los servicios de esta API y mostrar visualmente el proceso de
+                            negocio
+                        </p>
+    
+                        <a href="#" class="button-publication">
+                            Ver proyecto
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-detail">
+                        <h1>Blog de publicaciones</h1>
+                        <hr>
+    
+                        <img src="assets/img/layout_3.png" alt="">
+    
+                        <p>
+                            Construccion de un blog, en la cual se realizo la construccion de una API REST en
+                            NodeJS con conexion a la bases de datos no relacional Mongoose y por el lado del cliente se
+                            utilizo angular para consumir los servicios de esta API y mostrar visualmente todo el proceso
+                            de publicacion de archivos y entre otras cosas.
+                        </p>
+    
+                        <a href="#" class="button-publication">
+                            Ver proyecto
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="svg-hero" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #000000;"></path>
+        </svg></div>
+    </section>
+
+     <!-- (Skills) -->
+     <section class="skills" id="skills">
+         <div class="container">
+            <h1 class="title-section">Habilidades</h1>
+            <hr class="line-section">
+
+            <div class="grid">
+                <div class="box">
+                    <div class="box-tooltip">
+                        <p>HTML</p>
+                    </div>
+                    <div class="box-image">
+                        <img src="assets/img/html.svg" alt="html">
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-tooltip">
+                        <p>CSS</p>
+                    </div>
+                    <div class="box-image">
+                        <img src="assets/img/css.svg" alt="css">
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-tooltip">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="box-image">
+                        <img src="assets/img/js.svg" alt="javascript">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-tooltip">
+                        <p>Jquery</p>
+                    </div>
+                    <div class="box-image">
+                        <img src="assets/img/jquery.svg" alt="jquery">
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-tooltip">
+                        <p>Angular</p>
+                    </div>
+                    <div class="box-image">
+                        <img src="assets/img/angular.svg" alt="angular">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-tooltip">
+                        <p>NodeJS</p>
+                    </div>
+                    <div class="box-image">
+                        <img src="assets/img/node.svg" alt="nodejs">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-tooltip">
+                        <p>MongoDB</p>
+                    </div>
+                    <div class="box-image">
+                        <img src="assets/img/mongo.svg" alt="mongo">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-tooltip">
+                        <p>MySQL</p>
+                    </div>
+                    <div class="box-image">
+                        <img src="assets/img/mysql.png" alt="mysql">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-tooltip">
+                        <p>GitHub</p>
+                    </div>
+                    <div class="box-image">
+                        <img src="assets/img/github.png" alt="github">
+                    </div>
+                </div>
+            </div>
+         </div>
+         <div class="svg-hero" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #ffffff;"></path>
+        </svg></div>
+     </section>
+
+     <!-- (Contact) -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h1 class="title-section">Contacto</h1>
+            <hr class="line-section">
+
+            <div class="flex">
+                <form action="#" class="contact-form">
+                    <div class="icon-user">
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <!-- (Input Name) -->
+                    <input type="text" name="name" id="name" placeholder="Ingrese su nombre">
+
+                    <!-- (Input Lastname) -->
+                    <input type="text" name="lastname" id="lastname" placeholder="Ingrese su apellido">
+
+                    <!-- (Input Email) -->
+                    <input type="email" name="email" id="email" placeholder="Ingrese su email">
+
+                    <!-- (Input Type Contact) -->
+                    <select name="type_contact" id="type_contact">
+                        <option value="val1">Reclamo</option>
+                        <option value="val1">Felicitaciones</option>
+                        <option value="val1">Empleo</option>
+                        <option value="val1">Sugerencia</option>
+                    </select>
+
+                    <!-- (Input Message) -->
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </form>
+
+                <div class="contact-methods">
+                    <div class="box-contact">
+                        <a href="mailto:ni.gfell.inf@gmail.com?subject=interesado%20en%20sus%20servicios" id="mail">
+                            <i class="uil uil-envelope"></i>
+                        </a>
+                        <p>Redacte un mail</p>
+                    </div>
+                    <div class="box-contact">
+                        <a href="https://github.com/NicolasGfell" id="github">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <p>Sigame en GitHub</p>
+                    </div>
+                    <div class="box-contact">
+                        <a href="https://www.linkedin.com/in/nicolas-gfell-sandoval-9b6331199/" id="linkedin">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <p>Comienze un chat por linkedin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- (====> // Footer  <<====)-->
+    <footer class="footer">
+        <p>Copyright&copy; 2021. @NgfellDev</p>
+        <p>All Rights Reserved</p>
+    </footer>
+
+    <!-- (Load Jquery) -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+    <!-- (Load Main JS) -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
